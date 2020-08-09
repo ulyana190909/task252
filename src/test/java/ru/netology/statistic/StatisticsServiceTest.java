@@ -24,7 +24,7 @@ class StatisticsServiceTest {
     StatisticsService service = new StatisticsService();
 
     long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 45, 5, 11, 11, 12};
-    long expected = 3;
+    long expected = 45;
 
     long actual = service.findMaximum(incomesInBillions);
 
